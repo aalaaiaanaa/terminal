@@ -123,13 +123,13 @@
   <data name="AzureEnterTenant" xml:space="preserve">
     <value>Please enter the desired tenant number.</value>
   </data>
-  <data name="AzureNewLogin" xml:space="default">
+  <data name="AzureNewLogin" xml:space="preserve">
     <value>Enter %s to login with a different account</value>
   </data>
-  <data name="AzureRemoveStored" xml:space="default">
+  <data name="AzureRemoveStored" xml:space="preserve">
     <value>Enter %s to remove the above saved connection settings.</value>
   </data>
-  <data name="AzureInvalidAccessInput" xml:space="default">
+  <data name="AzureInvalidAccessInput" xml:space="preserve">
     <value>Please enter a valid number to access the stored connection settings, %s to make a new one, or %s to remove the stored ones.</value>
   </data>
   <data name="AzureNonNumberError" xml:space="preserve">
@@ -144,10 +144,10 @@
   <data name="AzureNoCloudAccount" xml:space="preserve">
     <value>You have not set up your cloud shell account yet. Please go to https://shell.azure.com to set it up.</value>
   </data>
-  <data name="AzureStorePrompt" xml:space="default">
+  <data name="AzureStorePrompt" xml:space="preserve">
     <value>Do you want to save these connection settings for future logins? [%s/%s]</value>
   </data>
-  <data name="AzureInvalidStoreInput" xml:space="default">
+  <data name="AzureInvalidStoreInput" xml:space="preserve">
     <value>Please enter %s or %s</value>
   </data>
   <data name="AzureRequestingCloud" xml:space="preserve">
@@ -174,16 +174,13 @@
   <data name="AzureAuthString" xml:space="preserve">
     <value>Authenticated.</value>
   </data>
-  <data name="AzureInternetOrServerIssue" xml:space="preserve">
-    <value>Could not connect to Azure. You may not have internet or the server might be down.</value>
-  </data>
   <data name="AzureOldCredentialsFlushedMessage" xml:space="preserve">
     <value>Authentication parameters changed. You'll need to log in again.</value>
   </data>
   <data name="AzureUnknownTenantName" xml:space="preserve">
     <value>&lt;unknown tenant name&gt;</value>
   </data>
-  <data name="AzureIthTenant" xml:space="default">
+  <data name="AzureIthTenant" xml:space="preserve">
     <value>Tenant %s: %s (%s)</value>
   </data>
   <data name="AzureSuccessfullyAuthenticated" xml:space="preserve">
